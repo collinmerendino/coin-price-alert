@@ -22,7 +22,9 @@ It fetches real-time prices from the CoinGecko API and sends alerts to you gmail
 
 ## Usage
 1. Install Dependencies
-```pip install requests python-dotenv```
+```
+pip install requests python-dotenv
+```
 
 3. Generate a Gmail App Password
 - Enable 2-step verification, go to the Security page.
@@ -37,17 +39,25 @@ In the App passwords section:
 - Google will display a 16-character app password. Copy this password.
 
 3. Configure the .env
-```Token thresholds (format: THRESHOLD_<TOKEN_NAME>=<PRICE>)```
+```
+Token thresholds (format: THRESHOLD_<TOKEN_NAME>=<PRICE>)
+```
 
-4. With Docker
+5. With Docker
 Build the image
-```docker build -t coin-price-alert .```
+```
+docker build -t coin-price-alert .
+```
 
 Run the image
-```docker run -d --name coin-price-alert --env-file .env coin-price-alert```
+```
+docker run -d --name coin-price-alert --env-file .env coin-price-alert
+```
 
 5. Locally
-```python pricealert.py```
+```
+python pricealert.py
+```
 
 ---
 
