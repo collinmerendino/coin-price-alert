@@ -72,6 +72,7 @@ python pricealert.py
 
 ## Notes
 Gmail Users: If you're using Gmail, enable 2-Step Verification and generate an app password for the script to work.
+
 SMTP Server: The script uses Gmail's SMTP server "smtp.gmail.com". If you're using a different email provider, update the SMTP server and port in the script.
 
 ## Contributing
