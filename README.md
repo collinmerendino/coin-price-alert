@@ -20,7 +20,7 @@ It fetches real-time prices from the CoinGecko API and sends alerts to you gmail
 
 ---
 
-# Usage
+## Usage
 1. Install Dependencies
 pip install requests python-dotenv
 
@@ -60,7 +60,7 @@ python pricealert.py
 
 ---
 
-# Notes
+## Notes
 Gmail Users: If you're using Gmail, enable 2-Step Verification and generate an app password for the script to work.
 SMTP Server: The script uses Gmail's SMTP server "smtp.gmail.com". If you're using a different email provider, update the SMTP server and port in the script.
 
