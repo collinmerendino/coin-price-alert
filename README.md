@@ -40,7 +40,16 @@ In the App passwords section:
 
 3. Configure the .env
 ```
-Token thresholds (format: THRESHOLD_<TOKEN_NAME>=<PRICE>)
+# Email configuration
+EMAIL_FROM=email@example.com
+EMAIL_PASSWORD=password
+EMAIL_TO=recipient@example.com
+
+# Token thresholds (format: THRESHOLD_<TOKEN_NAME>=<PRICE>)
+THRESHOLD_BITCOIN=70000
+THRESHOLD_ETHEREUM=2000
+THRESHOLD_SOLANA=100
+THRESHOLD_DOGECOIN=0.5
 ```
 
 5. With Docker
