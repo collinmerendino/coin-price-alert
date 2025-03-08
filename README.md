@@ -78,5 +78,4 @@ SMTP Server: The script uses Gmail's SMTP server "smtp.gmail.com". If you're usi
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements, please open an issue or submit a pull request.
 
-License
 This project is licensed under the MIT License. 
