@@ -38,7 +38,7 @@ In the App passwords section:
 - Click Generate.
 - Google will display a 16-character app password. Copy this password.
 
-3. Configure the .env
+3. Create and configure the .env
 ```
 # Email configuration
 EMAIL_FROM=email@example.com
